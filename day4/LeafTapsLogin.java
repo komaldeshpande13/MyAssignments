@@ -22,6 +22,9 @@ public class LeafTapsLogin {
 		ch.findElement(By.id("officeSiteName")).sendKeys("LeafTaps");
 		ch.findElement(By.className("smallSubmit")).click();
 		
+		
+		
+		
 		String t = ch.getTitle();
 		
 		if(t.contains("Account Details")) {
